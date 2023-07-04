@@ -3,6 +3,8 @@ float: left;
 display: block;
 border-radius: 10px;
 margin: 10px;
+width: 128px;
+height: 128px;
 
 }
 .App div{

@@ -4,6 +4,8 @@ import IdCard from './components/IdCard';
 import NotAvailable from './components/NotAvailable';
 import Random from './components/Random';
 import BoxColor from './components/BoxColor';
+import FaceBook from './components/FaceBook';
+import NumbersTable from './components/NumbersTable';
 const users = [
                   {
                   lastName:'Doe',
@@ -61,9 +63,10 @@ function App() {
       <h3>Iteration 11 | Component: Carousel</h3>
       <NotAvailable/>
       <h3>Iteration 12 | List and Keys | NumbersTable</h3>
-      <NotAvailable/>
+      <NumbersTable limit={12} />
+      <NumbersTable limit={18} />
       <h3>Iteration 13 | List and Keys - FaceBook (Simple)</h3>
-      <NotAvailable/>
+      <FaceBook/>
       <h3>Iteration 14 | List and Keys - FaceBook (Advanced)</h3>
       <NotAvailable/>
       <h3>Iteration 15 | Form - SignupPage</h3>

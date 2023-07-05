@@ -1,0 +1,17 @@
+.grettingscard{
+  margin: 10px auto;
+  width: 600px;
+  height: 60px;
+  line-height: 8px;
+  border-radius: 10px;
+  background-color: #2e2e2e;
+  color: #fff;
+}
+
+.grettingscard p{
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}

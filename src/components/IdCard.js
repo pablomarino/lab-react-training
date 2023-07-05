@@ -3,7 +3,7 @@ import './IdCard.css';
 function IdCard({ picture, firstName, lastName, gender, height, birth }) {
 
   return (
-    <div>
+    <div className='idcard'>
       <img src={picture} alt={'profile picture of ' + firstName} />
       <p><b>Firstname:</b> {firstName}</p>
       <p><b>Lastname:</b> {lastName}</p>

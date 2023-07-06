@@ -6,6 +6,9 @@ import Random from './components/Random';
 import BoxColor from './components/BoxColor';
 import FaceBook from './components/FaceBook';
 import NumbersTable from './components/NumbersTable';
+import LikeButton from './components/LikeButton';
+import ClickablePicture from './components/ClickablePicture';
+
 const users = [
                   {
                   lastName:'Doe',
@@ -55,9 +58,9 @@ function App() {
       <h3>Iteration 7 | Component: DriverCard</h3>
       <NotAvailable/>
       <h3>Iteration 8 | State: LikeButton</h3>
-      <NotAvailable/>
+      <LikeButton/><LikeButton/>
       <h3>Iteration 9 | State: ClickablePicture</h3>
-      <NotAvailable/>
+      <ClickablePicture img='maxence.png' imgClicked='maxence-glasses.png' />
       <h3>Iteration 10 | State: Dice</h3>
       <NotAvailable/>
       <h3>Iteration 11 | Component: Carousel</h3>

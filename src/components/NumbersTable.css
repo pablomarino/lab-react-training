@@ -4,7 +4,7 @@
   justify-content: left;
   margin: 40px;
 }
-.number{
+.numberstablecard .number{
   display: inline-block;
   font-size: 32px;
   font-weight: bold;

@@ -1,3 +1,4 @@
+import './LikeButton.css'
 import { useState } from 'react';
 
 const LikeButton = function() {
@@ -11,7 +12,7 @@ const LikeButton = function() {
     
   };
 
-  return <button 
+  return <button className='like-button' 
   style={{backgroundColor:background_color[color]}} 
   onClick={handleClick}> 
   {likes} Likes

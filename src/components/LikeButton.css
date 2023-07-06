@@ -1,0 +1,14 @@
+.like-button{
+  box-shadow: 0px 10px 14px -7px #656664;
+	border-radius:4px;
+	border:1px solid #8e8f8d;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:18px;
+	font-weight:bold;
+	padding:20px 24px;
+  margin: 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #81837f;
+}
